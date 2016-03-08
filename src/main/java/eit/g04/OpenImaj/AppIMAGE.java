@@ -1,4 +1,4 @@
-package eit.g04;
+package eit.g04.OpenImaj;
 
 import org.openimaj.image.DisplayUtilities;
 import org.openimaj.image.ImageUtilities;

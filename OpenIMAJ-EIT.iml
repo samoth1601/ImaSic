@@ -288,5 +288,6 @@
     <orderEntry type="library" name="Maven: com.github.axet:wget:1.2.11" level="project" />
     <orderEntry type="library" name="Maven: com.github.axet:threads:0.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.2" level="project" />
+    <orderEntry type="library" name="jfugue-5.0.5" level="project" />
   </component>
 </module>

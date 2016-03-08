@@ -1,4 +1,4 @@
-package eit.g04;
+package eit.g04.OpenImaj;
 
 import java.awt.Color;
 import java.util.ArrayList;

@@ -1,49 +1,24 @@
-package eit.g04;
+package eit.g04.OpenImaj;
 
 import java.awt.Color;
-import java.awt.PageAttributes.ColorType;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Arrays;
 import java.util.List;
 
-import org.openimaj.image.DisplayUtilities;
-import org.openimaj.image.FImage;
-import org.openimaj.image.ImageUtilities;
 import org.openimaj.image.MBFImage;
 import org.openimaj.image.colour.ColourSpace;
-import org.openimaj.image.colour.RGBColour;
-import org.openimaj.image.colour.Transforms;
 import org.openimaj.image.connectedcomponent.GreyscaleConnectedComponentLabeler;
 import org.openimaj.image.pixel.ConnectedComponent;
-import org.openimaj.image.pixel.ConnectedComponent.ConnectMode;
-import org.openimaj.image.pixel.Pixel;
-import org.openimaj.image.pixel.statistics.HistogramModel;
-import org.openimaj.image.processing.edges.CannyEdgeDetector;
-import org.openimaj.image.processing.face.detection.DetectedFace;
-import org.openimaj.image.processing.face.detection.FaceDetector;
-import org.openimaj.image.processing.face.detection.HaarCascadeDetector;
-import org.openimaj.image.processing.face.detection.keypoints.FKEFaceDetector;
-import org.openimaj.image.processing.face.detection.keypoints.KEDetectedFace;
 import org.openimaj.image.processing.resize.ResizeProcessor;
 import org.openimaj.image.typography.hershey.HersheyFont;
-import org.openimaj.math.geometry.shape.Rectangle;
-import org.openimaj.math.statistics.distribution.Histogram;
-import org.openimaj.math.statistics.distribution.MultidimensionalHistogram;
 import org.openimaj.ml.clustering.FloatCentroidsResult;
 import org.openimaj.ml.clustering.assignment.HardAssigner;
 import org.openimaj.ml.clustering.kmeans.FloatKMeans;
 import org.openimaj.video.Video;
 import org.openimaj.video.VideoDisplay;
 import org.openimaj.video.VideoDisplayListener;
-import org.openimaj.video.capture.VideoCapture;
-import org.openimaj.video.capture.VideoCaptureException;
 import org.openimaj.video.xuggle.XuggleVideo;
-
-import com.jogamp.common.util.cache.TempCacheReg;
 
 /**
  * OpenIMAJ Hello world!
