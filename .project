@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>OpenIMAJ-EIT</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>resources/bigbang.mp4</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Movies/The%20Big%20Bang%20Theory%20Season%2008%20(720p)%20S08%20Complete%208%20MP4%20HDTV%20%5BKoTuWa%5D/The.Big.Bang.Theory.S08E01.720p.Locomotion.Interruption.HDTV.%5BKoTuWa%5D.mp4</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
