@@ -1,4 +1,4 @@
-# Visaudio
+# Visaudio - Computer generated music with basis in visual input
 Experts in Teamwork - Computational Creativity<br>
 NTNU - Norway - 2016<br>
 Group 4<br>
