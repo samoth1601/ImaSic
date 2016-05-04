@@ -32,6 +32,7 @@ Below are the images for the experiments on algorithmic music composition.
 The collection can be found at https://goo.gl/67ookR, or as single tracks listed with eachexperiment below.
 <br>
 <h3><b>Experiment 1:</b> Starry Night over Rhone [van Gogh, 1888] </h3>
+![Starry Night](/illustrationImages/Skjermbilde 2016-04-30 kl. 14.33.30.png)
 Mood: Sad <br>Link: https://soundcloud.com/thomas-mathisen-5/starry-night-over-the-rhone-sad
 <br>
 <h3><b>Experiment 2:</b> The Sick Child [Munch, 1885-1926] </h3>
