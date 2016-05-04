@@ -30,15 +30,15 @@ public class AppVIDEO {
 	
     public static void main( String[] args ) throws IOException {
 		final ColorUtils colorUtils = new ColorUtils();
-    	
+
     	Video<MBFImage> video;
-    	
-    	
-    	video = new XuggleVideo(new File("./resources/journey.mp4"));
+
+
+    	video = new XuggleVideo(new File("./resources/Frozen.mp4"));
     //video = new XuggleVideo(new URL("http://dl.dropbox.com/u/8705593/keyboardcat.flv"));
-    	
+
     	//VideoDisplay<MBFImage> display = VideoDisplay.createVideoDisplay(video);
-    	
+
     	VideoDisplay<MBFImage> display = VideoDisplay.createVideoDisplay(video);
     	display.addVideoListener(
     	  new VideoDisplayListener<MBFImage>() {
@@ -51,10 +51,10 @@ public class AppVIDEO {
 
 
     	 MBFImage input = frame;
-    	  
-    	
-    		
-    	
+
+
+
+
     	//MBFImage input = null;;
 		/*try {
 			input = ImageUtilities.readMBF(new File("./resources/yolo3.jpg"));
@@ -65,8 +65,8 @@ public class AppVIDEO {
     	input = ResizeProcessor.halfSize(input);
     	input = ResizeProcessor.halfSize(input);
     	input = ResizeProcessor.halfSize(input);
-    	//input = ResizeProcessor.halfSize(input);
-    	//input = ResizeProcessor.halfSize(input);
+    	input = ResizeProcessor.halfSize(input);
+    	input = ResizeProcessor.halfSize(input);
   
     	
     	/*HistogramModel model = new HistogramModel(1,1);
@@ -161,9 +161,9 @@ public class AppVIDEO {
 		    
 		    //comp.pixels.iterator().next().binaryHeader();
 			
-		    int color1 = (int) (Double.parseDouble(comp.extractPixels1d(input).getBand(0).toString().split(" ")[0].substring(1))*250);
-		    int color2 = (int) (Double.parseDouble(comp.extractPixels1d(input).getBand(1).toString().split(" ")[0].substring(1))*250);
-		    int color3 = (int) (Double.parseDouble(comp.extractPixels1d(input).getBand(2).toString().split(" ")[0].substring(1))*250);
+		    int color1 = (int) (Double.parseDouble(comp.extractPixels1d(input).getBand(0).toString().split(" ")[0].substring(1).replace(",","."))*250);
+		    int color2 = (int) (Double.parseDouble(comp.extractPixels1d(input).getBand(1).toString().split(" ")[0].substring(1).replace(",","."))*250);
+		    int color3 = (int) (Double.parseDouble(comp.extractPixels1d(input).getBand(2).toString().split(" ")[0].substring(1).replace(",","."))*250);
 		    
 		    int R = color1;
 		    int G = color2;
@@ -188,7 +188,7 @@ public class AppVIDEO {
 			}
 			//input.drawText("Point:" + comp.calculateCentroidPixel().binaryHeader(), comp.calculateCentroidPixel(), HersheyFont.TIMES_MEDIUM, 20);
 			//frame.drawText("Y:" + Y, comp.calculateCentroidPixel().x*32,comp.calculateCentroidPixel().y*32, HersheyFont.TIMES_MEDIUM, 20);
-			frame.drawText(colorUtils.getMoodFromColor(tempColor), comp.calculateCentroidPixel().x*8,comp.calculateCentroidPixel().y*8, HersheyFont.TIMES_MEDIUM, 50);
+			//frame.drawText(colorUtils.getMoodFromColor(tempColor), comp.calculateCentroidPixel().x*32,comp.calculateCentroidPixel().y*32, HersheyFont.TIMES_MEDIUM, 50);
 			//frame.drawText(colorUtils.getColorNameFromColor(tempColor), comp.calculateCentroidPixel().x*32,comp.calculateCentroidPixel().y*32, HersheyFont.TIMES_MEDIUM, 20);
 			
 			
@@ -217,7 +217,7 @@ public class AppVIDEO {
     	  public void afterUpdate(VideoDisplay<MBFImage> display) {
   	    }
   	  });
-    
+
     }
 
 
