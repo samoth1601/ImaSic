@@ -33,15 +33,17 @@ The collection can be found at https://goo.gl/67ookR, or as single tracks listed
 <br>
 <h3><b>Experiment 1:</b> Starry Night over Rhone [van Gogh, 1888] </h3>
 <p align="center">
-  <img src="/illustrationImages/Skjermbilde 2016-04-30 kl. 14.33.30.png" width="350"/>
+  <img src="/illustrationImages/Skjermbilde 2016-04-30 kl. 14.33.30.png" width="75%"/>
 </p>
 
 Mood: Sad <br>Link: https://soundcloud.com/thomas-mathisen-5/starry-night-over-the-rhone-sad
 <br>
 <h3><b>Experiment 2:</b> The Sick Child [Munch, 1885-1926] </h3>
+<img src="/illustrationImages/Skjermbilde 2016-04-30 kl. 14.52.19.png" width="75%"/>
 Mood: Sick <br> Link: https://soundcloud.com/thomas-mathisen-5/the-sick-child-sick-exp240
 <br>
 <h3><b>Experiment 3:</b> Landscape with a Hunter and His Dog [Moret, 1901] </h3>
+<img src="/illustrationImages/Skjermbilde 2016-05-04 kl. 20.31.45.png" width="75%"/>
 Mood: Calm <br>Link: https://soundcloud.com/thomas-mathisen-5/landscape-with-a-hunter-and-his-dog-calm-exp
 
 
