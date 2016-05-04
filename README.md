@@ -12,17 +12,18 @@ Group 4<br>
 </ul>
 
 <h1>Installation</h1>
-<h2>prerequisite: </h2>
+<h2>Prerequisites: </h2>
 <ul>
 <li><b>Maven:</b> https://maven.apache.org/download.cgi (Needs to be installed before cloning)</li>
 <li><b>JFugue:</b> http://www.jfugue.org/download.html - (Use as external library later)</li>
+<li><b>Gervill (OPTIONAL for better synth):</b> https://java.net/projects/gervill/downloads - (Use as external library later)</li>
 </ul>
 
 <h2>To run: </h2>
 <ol>
 <li>Clone repo to your local computer.</li>
 <li>Import JFuge in project as an external library.</li>
-<li>Download and implement gervill-compifont in the project's main-class. (src/main/java/OpenIMAJ/MainForWholeProject) (OPTIONAL)</li>
+<li>Download and implement gervill and compifont in the project's main-class. (src/main/java/OpenIMAJ/MainForWholeProject) (OPTIONAL)</li>
 <li>Run MainForWholeProject.java</li>
 </ol>
 <br>
